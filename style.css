@@ -1,0 +1,508 @@
+*{margin: 0;}
+
+    #main{
+        display: grid;
+        grid-template-columns: 3fr 15fr ;
+        grid-template-rows: 14vh 5vh 46vh ;
+        column-gap: 2%;
+    }
+
+
+#cabeçalho{
+    background-color:rgb(184, 22, 22) ;
+    display: flex;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    height: 100vh;
+    width: 300px;
+
+}
+#barrinha{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 130vh;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+#barrinha button{
+    background-color: rgb(184, 22, 22);
+    width: 10%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%;
+
+}
+#btnpedidos{
+    margin-left: 791px;
+}
+#titulo{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 470px;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#logo{
+    margin-left: 110px;
+    height: 80px;
+    width: 80px;
+
+}
+#opçoes{
+
+    margin-left: 110px;
+}
+#barrinhahome{
+background-color: white;
+height: 40px;
+width: 93%;
+margin-left: 8px;
+border-radius: 10px;
+margin-top: 10px;
+grid-column: 1/1;
+grid-row: 3/3;
+
+}
+#barrinhahome button{
+    width: 10%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%; 
+    margin-left: 50px; 
+    background-color: white;  
+}
+#barrinhacadastro{
+    background-color: white;
+    height: 40px;
+    width: 93%;
+    margin-left: 8px;
+    border-radius: 10px;  
+    margin-bottom: 200px; 
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin-top: 60px;
+ 
+
+}
+#barrinhacadastro button{
+    width: 10%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%; 
+    margin-left: 50px;
+    background-color: white; 
+}
+#menu{margin-top: 200px;
+margin-left: 110px;
+grid-column: 1/1;
+grid-row: 3/3;}
+
+#barrinhaqmsomos{
+    background-color: white;
+    height: 40px;
+    width: 93%;
+    margin-left: 8px;
+    border-radius: 10px;  
+    margin-bottom: 200px; 
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin-top: 260px;
+ 
+
+}
+#barrinhaqmsomos button{
+    width: 50%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%; 
+    margin-left: 30px;
+    background-color: white; 
+}
+#barrinhacontato{
+    background-color: white;
+    height: 40px;
+    width: 93%;
+    margin-left: 8px;
+    border-radius: 10px;  
+    margin-bottom: 200px; 
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin-top: 310px;
+ 
+
+}
+#barrinhacontato button{
+    width: 10%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%; 
+    margin-left: 50px;
+    background-color: white; 
+}
+#barrinhabusca{
+    background-color: white;
+    height: 40px;
+    width: 93%;
+    margin-left: 8px;
+    border-radius: 10px;  
+    margin-bottom: 200px; 
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin-top: 360px;
+ 
+
+}
+#barrinhabusca button{
+    width: 10%;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    height: 100%; 
+    margin-left: 50px;
+    background-color: white; 
+}
+#imgres1{
+   grid-column: 2/2;
+   grid-row: 2/2;
+   margin-top: 70px;
+   margin-left: 100px;
+}
+#imgres2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 70px;
+    margin-left: 330px;
+ }
+ #imgres3{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 70px;
+    margin-left: 560px;
+ }
+ #imgres4{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 70px;
+    margin-left: 790px;
+ }
+ #imgres1 button{
+    border: 0;
+    color: white;
+    height: 100%;
+ }
+ #imgres2 button{
+    border: 0;
+    color: white;
+    height: 100%;
+ }
+ #imgres3 button{
+    border: 0;
+    color: white;
+    height: 100%;
+ }
+ #imgres4 button{
+    border: 0;
+    color: white;
+    height: 100%;
+ }
+ #subti{
+    margin-left: 470px;
+ }
+ #titulop2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 470px;
+ }
+#opc1{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 55px;
+   margin-top: 100px;
+   font-weight: bold;
+   font-size: x-large
+}
+#opc2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 55px;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: x-large
+}
+#opc3{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 55px;
+    margin-top: 300px;
+    font-weight: bold;
+    font-size: x-large
+}
+#opc4{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 55px;
+    margin-top: 400px;
+    font-weight: bold;
+    font-size: x-large
+}
+#opc5{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 55px;
+    margin-top: 500px;
+    font-weight: bold;
+    font-size: x-large
+}
+#barrinhanome{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 100vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#barrinhadata{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 100vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+#barrinhacpf{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 100vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+#barrinhatelefone{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 100vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 300px;
+    margin-top: 400px;
+}
+#barrinhaemail{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 100vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 300px;
+    margin-top: 500px;
+   }
+#btnsalvar button{
+    background-color:  rgb(184, 22, 22);
+    width: 170px;
+    height: 50px;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 470px;
+}
+#opc1p2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 85px;
+   margin-top: 100px;
+   font-weight: bold;
+   font-size: x-large
+}
+#barrinhanome2{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 30vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 55px;
+    margin-top: 150px;
+}
+#opc3p2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 140px;
+    margin-top: 230px;
+    font-weight: bold;
+    font-size: x-large
+}
+#barrinhacpf2{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 30vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 55px;
+    margin-top: 280px;
+}
+#opc4p2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 120px;
+    margin-top: 360px;
+    font-weight: bold;
+    font-size: x-large
+}
+#barrinhatelefone2{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 30vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 55px;
+    margin-top: 410px;
+}
+#opc5p2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 130px;
+    margin-top: 490px;
+    font-weight: bold;
+    font-size: x-large
+}
+#barrinhaemail2{
+    background-color: rgb(185, 183, 183);
+    height: 40px;
+    width: 30vh;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-left: 55px;
+    margin-top: 540px;
+   }
+#mensagem{
+  grid-column: 2/2;
+  grid-row: 2/2;
+  margin-top: 100px;
+  width: 400px;
+  margin-left: 600px;
+  height: 350px;
+}
+#btnenviar button{
+    background-color:  rgb(184, 22, 22);
+    width: 170px;
+    height: 50px;
+    font-weight: 700;
+    border: 0;
+    font-size: 14px;
+    margin-top: 150px;
+    margin-left: 720px;
+}
+#tituloqmsomos{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 470px; 
+}
+#qmsomos{
+        background-color: rgb(185, 183, 183);
+        height: 400px;
+        width: 70vh;
+        margin-left: 300px;
+        margin-top: 150px;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    #titulopratos{
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-weight: bold;
+        font-size: xx-large;
+        margin-left: 470px;  
+        margin-bottom: 30px; 
+    }
+#coluna1{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 55px;
+   font-weight: bold;
+}
+#coluna2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 200px;
+   font-weight: bold;
+}
+#coluna3{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 345px;
+   font-weight: bold;
+}
+#coluna4{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 490px;
+   font-weight: bold;
+}
+#coluna5{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 635px;
+   font-weight: bold;
+}
+#coluna6{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 780px;
+   font-weight: bold;
+}
+#coluna7{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 100px;
+   margin-left: 925px;
+   font-weight: bold;
+}
+#imgpratos{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    margin-top: 500px;
+    margin-left: 95px;
+}
+#imgpratos ul { padding:0px;
+    margin:0px;
+    list-style:none;
+  }
+
+  #imgpratos ul li { display: inline; }
+
+#i2{
+    margin-left:  30px; 
+}
+#i3{
+    margin-left:  30px; 
+}
+#i4{
+    margin-left:  30px; 
+}
+#i5{
+    margin-left:  30px; 
+}
+#i6{
+    margin-left:  30px; 
+}
